@@ -1,0 +1,96 @@
+# Reading F:/questasim/data/tcl/vsim/pref.tcl
+# //  Questa Sim-64
+# //  Version 10.6c win64 Jul 26 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading project labseven
+# Compile of double_port_mem.sv was successful.
+# Compile of SystemVerilogCSP.sv was successful.
+# Compile of pe_tb.sv was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.testbench -novopt
+# vsim -gui work.testbench -novopt 
+# Start time: 22:33:34 on Feb 22,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing F:/questasim/workspace/lab7/work.testbench
+# Refreshing F:/questasim/workspace/lab7/work.pe_tb_sv_unit
+# Refreshing F:/questasim/workspace/lab7/work.SystemVerilogCSP
+# Loading sv_std.std
+# Loading work.SystemVerilogCSP
+# Loading work.pe_tb_sv_unit
+# Loading work.testbench
+# Refreshing F:/questasim/workspace/lab7/work.pe_tb
+# Loading work.pe_tb
+# Refreshing F:/questasim/workspace/lab7/work.pe
+# Refreshing F:/questasim/workspace/lab7/work.double_port_mem_sv_unit
+# Loading work.double_port_mem_sv_unit
+# Loading work.pe
+# Refreshing F:/questasim/workspace/lab7/work.mem
+# Loading work.mem
+# Refreshing F:/questasim/workspace/lab7/work.multipler
+# Loading work.multipler
+# Refreshing F:/questasim/workspace/lab7/work.adder
+# Loading work.adder
+# Refreshing F:/questasim/workspace/lab7/work.split
+# Loading work.split
+# Refreshing F:/questasim/workspace/lab7/work.accumulator
+# Loading work.accumulator
+# Refreshing F:/questasim/workspace/lab7/work.control
+# Loading work.control
+# Refreshing F:/questasim/workspace/lab7/work.Channel
+# Refreshing F:/questasim/workspace/lab7/work.SystemVerilogCSP_sv_unit
+# Loading work.SystemVerilogCSP_sv_unit
+# Loading work.Channel
+run -all
+# fpf data read: 1
+# psum_in sent 0
+# filter memory: mem[0]=  1
+# addr_filter=1
+# fpf data read: 2
+# filter memory: mem[1]=  2
+# addr_filter=2
+# fpf data read: 3
+# filter memory: mem[2]=  3
+# addr_filter=3
+# fpi data read: 1
+# ifmap memory: mem[0]=  1
+# fpi data read: 2
+# ifmap memory: mem[1]=  2
+# fpi data read: 3
+# ifmap memory: mem[2]=  3
+# fpi data read: 4
+# ifmap memory: mem[3]=  4
+# fpi data read: 5
+# ifmap memory: mem[4]=  5
+# psum_in sent 0
+# psum_in sent 0
+# psum_in sent 0
+# psum_in sent 0
+# current result is  14
+# testbench.petb psum O10:  14 received at             84000000
+# psum_in sent 0
+# psum_in sent 0
+# psum_in sent 0
+# psum_in sent 0
+# current result is  20
+# testbench.petb psum O11:  20 received at            146000000
+# psum_in sent 0
+# psum_in sent 0
+# psum_in sent 0
+# psum_in sent 0
+# current result is  26
+# testbench.petb psum O12:  26 received at            208000000
+# testbench.petb done received. ending simulation at            208000000
+# ** Note: $stop    : F:/questasim/workspace/lab7/pe_tb.sv(79)
+#    Time: 208 ns  Iteration: 11  Instance: /testbench/petb
+# Break in Module pe_tb at F:/questasim/workspace/lab7/pe_tb.sv line 79
